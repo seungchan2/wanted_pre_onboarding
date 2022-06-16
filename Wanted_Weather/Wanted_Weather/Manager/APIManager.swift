@@ -1,8 +1,8 @@
 //
 //  APIManager.swift
-//  Wanted_Weather
+//  wanted_Weather
 //
-//  Created by 김승찬 on 2022/06/12.
+//  Created by 김승찬 on 2022/06/16.
 //
 
 import Foundation
