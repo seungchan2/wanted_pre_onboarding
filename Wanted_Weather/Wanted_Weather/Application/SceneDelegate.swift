@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  Wanted_Weather
+//  wanted_Weather
 //
-//  Created by 김승찬 on 2022/06/09.
+//  Created by 김승찬 on 2022/06/16.
 //
 
 import UIKit
@@ -18,6 +18,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window?.windowScene = windowScene
         window?.rootViewController = UINavigationController(rootViewController: WeatherViewController())
         window?.makeKeyAndVisible()
+
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

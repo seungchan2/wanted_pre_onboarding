@@ -7,33 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EC37F92C2854DDBE008DEB9C /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC37F92B2854DDBE008DEB9C /* WeatherViewController.swift */; };
-		EC37F92E2854DDC7008DEB9C /* Weather.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC37F92D2854DDC7008DEB9C /* Weather.storyboard */; };
-		EC37F9382855BE0C008DEB9C /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC37F9372855BE0C008DEB9C /* APIManager.swift */; };
-		EC37F93A2855BFA1008DEB9C /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC37F9392855BFA1008DEB9C /* Weather.swift */; };
-		EC37F9402855C6C3008DEB9C /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC37F93F2855C6C3008DEB9C /* WeatherViewModel.swift */; };
-		EC8EC15828520ED100A744FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8EC15728520ED100A744FE /* AppDelegate.swift */; };
-		EC8EC15A28520ED100A744FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8EC15928520ED100A744FE /* SceneDelegate.swift */; };
-		EC8EC16128520ED200A744FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC8EC16028520ED200A744FE /* Assets.xcassets */; };
-		EC8EC16428520ED200A744FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC8EC16228520ED200A744FE /* LaunchScreen.storyboard */; };
+		EC9223F4285AEC8B00152E91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9223F3285AEC8B00152E91 /* AppDelegate.swift */; };
+		EC9223F6285AEC8B00152E91 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9223F5285AEC8B00152E91 /* SceneDelegate.swift */; };
+		EC9223FD285AEC8C00152E91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC9223FC285AEC8C00152E91 /* Assets.xcassets */; };
+		EC922400285AEC8C00152E91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC9223FE285AEC8C00152E91 /* LaunchScreen.storyboard */; };
+		EC922408285AECC600152E91 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC922407285AECC600152E91 /* WeatherViewController.swift */; };
+		EC92240A285AED1300152E91 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC922409285AED1300152E91 /* WeatherView.swift */; };
+		EC92240C285AED1C00152E91 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC92240B285AED1C00152E91 /* WeatherViewModel.swift */; };
+		EC92240E285AED9000152E91 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC92240D285AED9000152E91 /* APIManager.swift */; };
+		EC922410285AEDA800152E91 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC92240F285AEDA800152E91 /* Weather.swift */; };
+		EC922416285AEE0400152E91 /* WeatherDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC922415285AEE0400152E91 /* WeatherDetailViewController.swift */; };
+		EC922418285AEE1400152E91 /* WeatherDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC922417285AEE1400152E91 /* WeatherDetailView.swift */; };
+		EC92241E285AF1A800152E91 /* ViewPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC92241D285AF1A800152E91 /* ViewPresentable.swift */; };
+		EC922420285AF1D600152E91 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC92241F285AF1D600152E91 /* Observable.swift */; };
+		EC922422285AF1F500152E91 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC922421285AF1F500152E91 /* BaseViewController.swift */; };
+		EC922429285AF25400152E91 /* WeatherDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC922428285AF25400152E91 /* WeatherDetailViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EC37F92B2854DDBE008DEB9C /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
-		EC37F92D2854DDC7008DEB9C /* Weather.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Weather.storyboard; sourceTree = "<group>"; };
-		EC37F9372855BE0C008DEB9C /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
-		EC37F9392855BFA1008DEB9C /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
-		EC37F93F2855C6C3008DEB9C /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
-		EC8EC15428520ED100A744FE /* Wanted_Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wanted_Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC8EC15728520ED100A744FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EC8EC15928520ED100A744FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EC8EC16028520ED200A744FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EC8EC16328520ED200A744FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		EC8EC16528520ED200A744FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC9223F0285AEC8B00152E91 /* wanted_Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wanted_Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC9223F3285AEC8B00152E91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC9223F5285AEC8B00152E91 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EC9223FC285AEC8C00152E91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC9223FF285AEC8C00152E91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC922401285AEC8C00152E91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC922407285AECC600152E91 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		EC922409285AED1300152E91 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		EC92240B285AED1C00152E91 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
+		EC92240D285AED9000152E91 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		EC92240F285AEDA800152E91 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		EC922415285AEE0400152E91 /* WeatherDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetailViewController.swift; sourceTree = "<group>"; };
+		EC922417285AEE1400152E91 /* WeatherDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetailView.swift; sourceTree = "<group>"; };
+		EC92241D285AF1A800152E91 /* ViewPresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPresentable.swift; sourceTree = "<group>"; };
+		EC92241F285AF1D600152E91 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		EC922421285AF1F500152E91 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		EC922428285AF25400152E91 /* WeatherDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetailViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EC8EC15128520ED100A744FE /* Frameworks */ = {
+		EC9223ED285AEC8B00152E91 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,123 +55,193 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EC37F9262854DD61008DEB9C /* Presentation */ = {
+		EC9223E7285AEC8B00152E91 = {
 			isa = PBXGroup;
 			children = (
-				EC37F92A2854DDAA008DEB9C /* Weather */,
-			);
-			path = Presentation;
-			sourceTree = "<group>";
-		};
-		EC37F9272854DD6F008DEB9C /* Resource */ = {
-			isa = PBXGroup;
-			children = (
-				EC8EC16228520ED200A744FE /* LaunchScreen.storyboard */,
-				EC8EC16028520ED200A744FE /* Assets.xcassets */,
-			);
-			path = Resource;
-			sourceTree = "<group>";
-		};
-		EC37F9292854DD7E008DEB9C /* Application */ = {
-			isa = PBXGroup;
-			children = (
-				EC8EC15728520ED100A744FE /* AppDelegate.swift */,
-				EC8EC15928520ED100A744FE /* SceneDelegate.swift */,
-			);
-			path = Application;
-			sourceTree = "<group>";
-		};
-		EC37F92A2854DDAA008DEB9C /* Weather */ = {
-			isa = PBXGroup;
-			children = (
-				EC37F92B2854DDBE008DEB9C /* WeatherViewController.swift */,
-				EC37F92D2854DDC7008DEB9C /* Weather.storyboard */,
-				EC37F93F2855C6C3008DEB9C /* WeatherViewModel.swift */,
-			);
-			path = Weather;
-			sourceTree = "<group>";
-		};
-		EC37F9352855BDFC008DEB9C /* Service */ = {
-			isa = PBXGroup;
-			children = (
-				EC37F9362855BE02008DEB9C /* Network */,
-			);
-			path = Service;
-			sourceTree = "<group>";
-		};
-		EC37F9362855BE02008DEB9C /* Network */ = {
-			isa = PBXGroup;
-			children = (
-				EC37F9372855BE0C008DEB9C /* APIManager.swift */,
-				EC37F9392855BFA1008DEB9C /* Weather.swift */,
-			);
-			path = Network;
-			sourceTree = "<group>";
-		};
-		EC8EC14B28520ED100A744FE = {
-			isa = PBXGroup;
-			children = (
-				EC8EC15628520ED100A744FE /* Wanted_Weather */,
-				EC8EC15528520ED100A744FE /* Products */,
+				EC9223F2285AEC8B00152E91 /* wanted_Weather */,
+				EC9223F1285AEC8B00152E91 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		EC8EC15528520ED100A744FE /* Products */ = {
+		EC9223F1285AEC8B00152E91 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EC8EC15428520ED100A744FE /* Wanted_Weather.app */,
+				EC9223F0285AEC8B00152E91 /* wanted_Weather.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EC8EC15628520ED100A744FE /* Wanted_Weather */ = {
+		EC9223F2285AEC8B00152E91 /* wanted_Weather */ = {
 			isa = PBXGroup;
 			children = (
-				EC37F9352855BDFC008DEB9C /* Service */,
-				EC37F9292854DD7E008DEB9C /* Application */,
-				EC37F9272854DD6F008DEB9C /* Resource */,
-				EC37F9262854DD61008DEB9C /* Presentation */,
-				EC8EC16528520ED200A744FE /* Info.plist */,
+				EC922411285AEDD400152E91 /* Application */,
+				EC92242A285AF26700152E91 /* Manager */,
+				EC92242B285AF26E00152E91 /* Model */,
+				EC922419285AEF9200152E91 /* Util */,
+				EC922412285AEDE100152E91 /* View */,
+				EC922425285AF22A00152E91 /* ViewModel */,
+				EC922424285AF22000152E91 /* Resource */,
+				EC922401285AEC8C00152E91 /* Info.plist */,
 			);
-			path = Wanted_Weather;
+			path = wanted_Weather;
+			sourceTree = "<group>";
+		};
+		EC922411285AEDD400152E91 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				EC9223F3285AEC8B00152E91 /* AppDelegate.swift */,
+				EC9223F5285AEC8B00152E91 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		EC922412285AEDE100152E91 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EC922413285AEDE500152E91 /* Weather */,
+				EC922414285AEDEA00152E91 /* WeatherDetail */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EC922413285AEDE500152E91 /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				EC922409285AED1300152E91 /* WeatherView.swift */,
+				EC922407285AECC600152E91 /* WeatherViewController.swift */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		EC922414285AEDEA00152E91 /* WeatherDetail */ = {
+			isa = PBXGroup;
+			children = (
+				EC922417285AEE1400152E91 /* WeatherDetailView.swift */,
+				EC922415285AEE0400152E91 /* WeatherDetailViewController.swift */,
+			);
+			path = WeatherDetail;
+			sourceTree = "<group>";
+		};
+		EC922419285AEF9200152E91 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				EC922423285AF1F800152E91 /* Base */,
+				EC92241B285AEFA400152E91 /* Protocol */,
+				EC92241A285AEF9D00152E91 /* Observable */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		EC92241A285AEF9D00152E91 /* Observable */ = {
+			isa = PBXGroup;
+			children = (
+				EC92241F285AF1D600152E91 /* Observable.swift */,
+			);
+			path = Observable;
+			sourceTree = "<group>";
+		};
+		EC92241B285AEFA400152E91 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				EC92241D285AF1A800152E91 /* ViewPresentable.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		EC922423285AF1F800152E91 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				EC922421285AF1F500152E91 /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		EC922424285AF22000152E91 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				EC9223FC285AEC8C00152E91 /* Assets.xcassets */,
+				EC9223FE285AEC8C00152E91 /* LaunchScreen.storyboard */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		EC922425285AF22A00152E91 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EC922426285AF22E00152E91 /* Weather */,
+				EC922427285AF23400152E91 /* WeatherDetail */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EC922426285AF22E00152E91 /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				EC92240B285AED1C00152E91 /* WeatherViewModel.swift */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		EC922427285AF23400152E91 /* WeatherDetail */ = {
+			isa = PBXGroup;
+			children = (
+				EC922428285AF25400152E91 /* WeatherDetailViewModel.swift */,
+			);
+			path = WeatherDetail;
+			sourceTree = "<group>";
+		};
+		EC92242A285AF26700152E91 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				EC92240D285AED9000152E91 /* APIManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		EC92242B285AF26E00152E91 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EC92240F285AEDA800152E91 /* Weather.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EC8EC15328520ED100A744FE /* Wanted_Weather */ = {
+		EC9223EF285AEC8B00152E91 /* wanted_Weather */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EC8EC16828520ED200A744FE /* Build configuration list for PBXNativeTarget "Wanted_Weather" */;
+			buildConfigurationList = EC922404285AEC8C00152E91 /* Build configuration list for PBXNativeTarget "wanted_Weather" */;
 			buildPhases = (
-				EC8EC15028520ED100A744FE /* Sources */,
-				EC8EC15128520ED100A744FE /* Frameworks */,
-				EC8EC15228520ED100A744FE /* Resources */,
+				EC9223EC285AEC8B00152E91 /* Sources */,
+				EC9223ED285AEC8B00152E91 /* Frameworks */,
+				EC9223EE285AEC8B00152E91 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Wanted_Weather;
-			productName = Wanted_Weather;
-			productReference = EC8EC15428520ED100A744FE /* Wanted_Weather.app */;
+			name = wanted_Weather;
+			productName = wanted_Weather;
+			productReference = EC9223F0285AEC8B00152E91 /* wanted_Weather.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EC8EC14C28520ED100A744FE /* Project object */ = {
+		EC9223E8285AEC8B00152E91 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
-					EC8EC15328520ED100A744FE = {
+					EC9223EF285AEC8B00152E91 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
 				};
 			};
-			buildConfigurationList = EC8EC14F28520ED100A744FE /* Build configuration list for PBXProject "Wanted_Weather" */;
+			buildConfigurationList = EC9223EB285AEC8B00152E91 /* Build configuration list for PBXProject "wanted_Weather" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -167,50 +249,56 @@
 				en,
 				Base,
 			);
-			mainGroup = EC8EC14B28520ED100A744FE;
-			productRefGroup = EC8EC15528520ED100A744FE /* Products */;
+			mainGroup = EC9223E7285AEC8B00152E91;
+			productRefGroup = EC9223F1285AEC8B00152E91 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EC8EC15328520ED100A744FE /* Wanted_Weather */,
+				EC9223EF285AEC8B00152E91 /* wanted_Weather */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		EC8EC15228520ED100A744FE /* Resources */ = {
+		EC9223EE285AEC8B00152E91 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC8EC16428520ED200A744FE /* LaunchScreen.storyboard in Resources */,
-				EC37F92E2854DDC7008DEB9C /* Weather.storyboard in Resources */,
-				EC8EC16128520ED200A744FE /* Assets.xcassets in Resources */,
+				EC922400285AEC8C00152E91 /* LaunchScreen.storyboard in Resources */,
+				EC9223FD285AEC8C00152E91 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EC8EC15028520ED100A744FE /* Sources */ = {
+		EC9223EC285AEC8B00152E91 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC37F9382855BE0C008DEB9C /* APIManager.swift in Sources */,
-				EC37F9402855C6C3008DEB9C /* WeatherViewModel.swift in Sources */,
-				EC8EC15828520ED100A744FE /* AppDelegate.swift in Sources */,
-				EC37F92C2854DDBE008DEB9C /* WeatherViewController.swift in Sources */,
-				EC8EC15A28520ED100A744FE /* SceneDelegate.swift in Sources */,
-				EC37F93A2855BFA1008DEB9C /* Weather.swift in Sources */,
+				EC922420285AF1D600152E91 /* Observable.swift in Sources */,
+				EC92241E285AF1A800152E91 /* ViewPresentable.swift in Sources */,
+				EC92240E285AED9000152E91 /* APIManager.swift in Sources */,
+				EC92240C285AED1C00152E91 /* WeatherViewModel.swift in Sources */,
+				EC922416285AEE0400152E91 /* WeatherDetailViewController.swift in Sources */,
+				EC922422285AF1F500152E91 /* BaseViewController.swift in Sources */,
+				EC9223F4285AEC8B00152E91 /* AppDelegate.swift in Sources */,
+				EC922408285AECC600152E91 /* WeatherViewController.swift in Sources */,
+				EC9223F6285AEC8B00152E91 /* SceneDelegate.swift in Sources */,
+				EC922418285AEE1400152E91 /* WeatherDetailView.swift in Sources */,
+				EC92240A285AED1300152E91 /* WeatherView.swift in Sources */,
+				EC922410285AEDA800152E91 /* Weather.swift in Sources */,
+				EC922429285AF25400152E91 /* WeatherDetailViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EC8EC16228520ED200A744FE /* LaunchScreen.storyboard */ = {
+		EC9223FE285AEC8C00152E91 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EC8EC16328520ED200A744FE /* Base */,
+				EC9223FF285AEC8C00152E91 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -218,7 +306,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		EC8EC16628520ED200A744FE /* Debug */ = {
+		EC922402285AEC8C00152E91 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -278,7 +366,7 @@
 			};
 			name = Debug;
 		};
-		EC8EC16728520ED200A744FE /* Release */ = {
+		EC922403285AEC8C00152E91 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -332,7 +420,7 @@
 			};
 			name = Release;
 		};
-		EC8EC16928520ED200A744FE /* Debug */ = {
+		EC922405285AEC8C00152E91 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -340,10 +428,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Wanted_Weather/Info.plist;
+				INFOPLIST_FILE = wanted_Weather/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Weather;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -351,7 +438,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "seungchan.Wanted-Weather";
+				PRODUCT_BUNDLE_IDENTIFIER = "seungchan.wanted-Weather";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -359,7 +446,7 @@
 			};
 			name = Debug;
 		};
-		EC8EC16A28520ED200A744FE /* Release */ = {
+		EC922406285AEC8C00152E91 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -367,10 +454,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Wanted_Weather/Info.plist;
+				INFOPLIST_FILE = wanted_Weather/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Weather;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -378,7 +464,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "seungchan.Wanted-Weather";
+				PRODUCT_BUNDLE_IDENTIFIER = "seungchan.wanted-Weather";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -389,25 +475,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EC8EC14F28520ED100A744FE /* Build configuration list for PBXProject "Wanted_Weather" */ = {
+		EC9223EB285AEC8B00152E91 /* Build configuration list for PBXProject "wanted_Weather" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EC8EC16628520ED200A744FE /* Debug */,
-				EC8EC16728520ED200A744FE /* Release */,
+				EC922402285AEC8C00152E91 /* Debug */,
+				EC922403285AEC8C00152E91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EC8EC16828520ED200A744FE /* Build configuration list for PBXNativeTarget "Wanted_Weather" */ = {
+		EC922404285AEC8C00152E91 /* Build configuration list for PBXNativeTarget "wanted_Weather" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EC8EC16928520ED200A744FE /* Debug */,
-				EC8EC16A28520ED200A744FE /* Release */,
+				EC922405285AEC8C00152E91 /* Debug */,
+				EC922406285AEC8C00152E91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = EC8EC14C28520ED100A744FE /* Project object */;
+	rootObject = EC9223E8285AEC8B00152E91 /* Project object */;
 }
