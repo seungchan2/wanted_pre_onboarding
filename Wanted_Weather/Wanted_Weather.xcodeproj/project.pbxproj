@@ -22,6 +22,8 @@
 		EC922420285AF1D600152E91 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC92241F285AF1D600152E91 /* Observable.swift */; };
 		EC922422285AF1F500152E91 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC922421285AF1F500152E91 /* BaseViewController.swift */; };
 		EC922429285AF25400152E91 /* WeatherDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC922428285AF25400152E91 /* WeatherDetailViewModel.swift */; };
+		EC92242D285AF42500152E91 /* APIKey.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC92242C285AF42500152E91 /* APIKey.plist */; };
+		EC922431285AF5DA00152E91 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC922430285AF5DA00152E91 /* Bundle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		EC92241F285AF1D600152E91 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
 		EC922421285AF1F500152E91 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		EC922428285AF25400152E91 /* WeatherDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetailViewModel.swift; sourceTree = "<group>"; };
+		EC92242C285AF42500152E91 /* APIKey.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = APIKey.plist; sourceTree = "<group>"; };
+		EC922430285AF5DA00152E91 /* Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,7 @@
 				EC922412285AEDE100152E91 /* View */,
 				EC922425285AF22A00152E91 /* ViewModel */,
 				EC922424285AF22000152E91 /* Resource */,
+				EC92242C285AF42500152E91 /* APIKey.plist */,
 				EC922401285AEC8C00152E91 /* Info.plist */,
 			);
 			path = wanted_Weather;
@@ -125,6 +130,7 @@
 		EC922419285AEF9200152E91 /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				EC92242E285AF5CC00152E91 /* Extension */,
 				EC922423285AF1F800152E91 /* Base */,
 				EC92241B285AEFA400152E91 /* Protocol */,
 				EC92241A285AEF9D00152E91 /* Observable */,
@@ -206,6 +212,14 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		EC92242E285AF5CC00152E91 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EC922430285AF5DA00152E91 /* Bundle.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -264,6 +278,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC92242D285AF42500152E91 /* APIKey.plist in Resources */,
 				EC922400285AEC8C00152E91 /* LaunchScreen.storyboard in Resources */,
 				EC9223FD285AEC8C00152E91 /* Assets.xcassets in Resources */,
 			);
@@ -277,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC922420285AF1D600152E91 /* Observable.swift in Sources */,
+				EC922431285AF5DA00152E91 /* Bundle.swift in Sources */,
 				EC92241E285AF1A800152E91 /* ViewPresentable.swift in Sources */,
 				EC92240E285AED9000152E91 /* APIManager.swift in Sources */,
 				EC92240C285AED1C00152E91 /* WeatherViewModel.swift in Sources */,
