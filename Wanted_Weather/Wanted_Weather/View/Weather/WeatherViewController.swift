@@ -12,6 +12,9 @@ class WeatherViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        APIManager.shared.getWeather { _ in
+            print("1")
+        }
         view.backgroundColor = .white
     }
  
