@@ -34,11 +34,20 @@ class WeatherViewController: BaseViewController {
             DispatchQueue.main.async {
                 self.weatherView.tableView.reloadData()
             }
-            
         }
 
         self.viewModel.getCityWeather()
     }
+}
+
+extension WeatherViewController {
+    private func pushDetailView(item: Weathers) {
+          let viewController = WeatherDetailViewController()
+
+        viewController.viewModel.weatherInfo(at: item)
+        
+          navigationController?.pushViewController(viewController, animated: true)
+      }
 }
 
 extension WeatherViewController: UITableViewDelegate, UITableViewDataSource {
@@ -56,5 +65,6 @@ extension WeatherViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
+        pushDetailView(item: viewModel.weatherInfo.value[indexPath.row])
     }
 }
