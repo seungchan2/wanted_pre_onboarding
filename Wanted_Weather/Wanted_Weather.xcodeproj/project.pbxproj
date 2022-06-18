@@ -112,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				EC922413285AEDE500152E91 /* Weather */,
+				EC922414285AEDEA00152E91 /* WeatherDetail */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -121,7 +122,6 @@
 			children = (
 				EC922409285AED1300152E91 /* WeatherView.swift */,
 				EC922407285AECC600152E91 /* WeatherViewController.swift */,
-				EC922414285AEDEA00152E91 /* WeatherDetail */,
 			);
 			path = Weather;
 			sourceTree = "<group>";

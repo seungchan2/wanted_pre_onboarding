@@ -8,5 +8,12 @@
 import Foundation
 
 final class WeatherDetailViewModel {
+   
+        
+    var weatherDetail: Observable<[Weathers]> = Observable([])
     
+    func weatherInfo(at index: Weathers) {
+        weatherDetail.value += [index]
+    }
 }
+
