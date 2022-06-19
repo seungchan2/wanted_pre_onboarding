@@ -44,10 +44,7 @@ class WeatherDetailView: UIView, ViewPresentable {
         return stackView
     }()
     
-    var collectionView = UICollectionView(
-        frame: .zero,
-        collectionViewLayout: UICollectionViewLayout()
-    )
+    var collectionView = UICollectionView(frame: .zero, collectionViewLayout: UICollectionViewLayout())
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -75,6 +72,7 @@ class WeatherDetailView: UIView, ViewPresentable {
         let layout = UICollectionViewFlowLayout()
         let spacing: CGFloat = 8
         let width = UIScreen.main.bounds.width - spacing * 3
+        
         layout.minimumInteritemSpacing = spacing
         layout.minimumLineSpacing = spacing
         layout.itemSize = CGSize(width: width / 2, height: width / 2)

@@ -30,7 +30,7 @@ final class WeatherDetailViewController: BaseViewController {
              image: UIImage(systemName: "chevron.backward"),
              style: .plain,
              target: self,
-             action: #selector(backButtonClicked)
+             action: #selector(backButtonTapped)
            )
            navigationItem.leftBarButtonItem?.tintColor = .black
     }
@@ -61,7 +61,7 @@ final class WeatherDetailViewController: BaseViewController {
 }
 
 extension WeatherDetailViewController {
-    @objc func backButtonClicked() {
+    @objc func backButtonTapped() {
         navigationController?.popViewController(animated: true)
     }
 }
