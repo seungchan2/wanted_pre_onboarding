@@ -7,6 +7,12 @@
 
 import Foundation
 
+enum NetworkError: Error {
+    case badUrl
+    case noData
+    case decodingError
+}
+
 class WeatherRepository: WeatherRepositoryInterface {
     
     static let shared = WeatherRepository()
@@ -14,10 +20,7 @@ class WeatherRepository: WeatherRepositoryInterface {
     private let apiKey: String = Bundle.main.apiKey
     
     func getCityWeather(query: String, completion: @escaping (Result<Weathers, NetworkError>) -> Void) {
-        
-        print("12312")
     
-        // API 호출을 위한 URL
         guard let url = URL(string: "https://api.openweathermap.org/data/2.5/weather?appid=\(apiKey)&units=metric&q=\(query)&lang=kr") else { return }
         
         let session = URLSession(configuration: .default)
