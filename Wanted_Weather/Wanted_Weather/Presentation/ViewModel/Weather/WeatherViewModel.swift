@@ -32,7 +32,6 @@ final class WeatherViewModel: WeatherViewModelProtocol {
                     DispatchQueue.global().async {
                         self.weatherInfo.value.append(data)
                     }
-        
                 case .failure(_):
                     print("실패")
                 }
