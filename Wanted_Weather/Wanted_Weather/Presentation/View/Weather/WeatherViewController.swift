@@ -17,13 +17,14 @@ class WeatherViewController: BaseViewController {
         self.view = weatherView
     }
     
- 
     
     override func viewDidLoad() {
         super.viewDidLoad()
     }
     
     override func setViewConfig() {
+        title = "날씨"
+        
         weatherView.tableView.dataSource = self
         weatherView.tableView.delegate = self
     }
@@ -35,19 +36,19 @@ class WeatherViewController: BaseViewController {
                 self.weatherView.tableView.reloadData()
             }
         }
-
+        
         self.viewModel.getCityWeather()
     }
 }
 
 extension WeatherViewController {
     private func pushDetailView(item: Weathers) {
-          let viewController = WeatherDetailViewController()
-
+        let viewController = WeatherDetailViewController()
+        
         viewController.viewModel.weatherInfo(at: item)
         
-          navigationController?.pushViewController(viewController, animated: true)
-      }
+        navigationController?.pushViewController(viewController, animated: true)
+    }
 }
 
 extension WeatherViewController: UITableViewDelegate, UITableViewDataSource {
@@ -59,7 +60,7 @@ extension WeatherViewController: UITableViewDelegate, UITableViewDataSource {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "WeatherTableViewCell", for: indexPath) as? WeatherTableViewCell else { return UITableViewCell() }
         
         cell.updateCell(weather: viewModel.weatherInfo.value[indexPath.row])
-     
+        
         return cell
     }
     

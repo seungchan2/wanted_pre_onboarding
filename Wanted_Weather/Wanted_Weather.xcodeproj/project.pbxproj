@@ -14,7 +14,6 @@
 		EC922408285AECC600152E91 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC922407285AECC600152E91 /* WeatherViewController.swift */; };
 		EC92240A285AED1300152E91 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC922409285AED1300152E91 /* WeatherView.swift */; };
 		EC92240C285AED1C00152E91 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC92240B285AED1C00152E91 /* WeatherViewModel.swift */; };
-		EC92240E285AED9000152E91 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC92240D285AED9000152E91 /* APIManager.swift */; };
 		EC922410285AEDA800152E91 /* Weathers.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC92240F285AEDA800152E91 /* Weathers.swift */; };
 		EC922416285AEE0400152E91 /* WeatherDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC922415285AEE0400152E91 /* WeatherDetailViewController.swift */; };
 		EC922418285AEE1400152E91 /* WeatherDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC922417285AEE1400152E91 /* WeatherDetailView.swift */; };
@@ -28,6 +27,9 @@
 		ECA3C2A2285CE87300BDE193 /* GetWeatherUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA3C2A1285CE87300BDE193 /* GetWeatherUseCase.swift */; };
 		ECA3C2A4285CE90400BDE193 /* WeatherRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA3C2A3285CE90400BDE193 /* WeatherRepository.swift */; };
 		ECA3C2A6285CE93900BDE193 /* WeatherRepositoryInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA3C2A5285CE93900BDE193 /* WeatherRepositoryInterface.swift */; };
+		ECA3C2A8285F109200BDE193 /* DetatilCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA3C2A7285F109200BDE193 /* DetatilCollectionViewCell.swift */; };
+		ECA3C2AA285F19CA00BDE193 /* UIView ++ Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA3C2A9285F19CA00BDE193 /* UIView ++ Extension.swift */; };
+		ECA3C2AC285F1C3F00BDE193 /* ImageCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA3C2AB285F1C3F00BDE193 /* ImageCacheManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,7 +42,6 @@
 		EC922407285AECC600152E91 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
 		EC922409285AED1300152E91 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
 		EC92240B285AED1C00152E91 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
-		EC92240D285AED9000152E91 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		EC92240F285AEDA800152E91 /* Weathers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weathers.swift; sourceTree = "<group>"; };
 		EC922415285AEE0400152E91 /* WeatherDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetailViewController.swift; sourceTree = "<group>"; };
 		EC922417285AEE1400152E91 /* WeatherDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetailView.swift; sourceTree = "<group>"; };
@@ -54,6 +55,9 @@
 		ECA3C2A1285CE87300BDE193 /* GetWeatherUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetWeatherUseCase.swift; sourceTree = "<group>"; };
 		ECA3C2A3285CE90400BDE193 /* WeatherRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherRepository.swift; sourceTree = "<group>"; };
 		ECA3C2A5285CE93900BDE193 /* WeatherRepositoryInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherRepositoryInterface.swift; sourceTree = "<group>"; };
+		ECA3C2A7285F109200BDE193 /* DetatilCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetatilCollectionViewCell.swift; sourceTree = "<group>"; };
+		ECA3C2A9285F19CA00BDE193 /* UIView ++ Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView ++ Extension.swift"; sourceTree = "<group>"; };
+		ECA3C2AB285F1C3F00BDE193 /* ImageCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCacheManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +94,6 @@
 				ECA3C296285CC5C600BDE193 /* Data */,
 				ECA3C299285CC75200BDE193 /* Domain */,
 				ECA3C29D285CC7AD00BDE193 /* Presentation */,
-				EC92242A285AF26700152E91 /* Manager */,
 				EC922419285AEF9200152E91 /* Util */,
 				EC922424285AF22000152E91 /* Resource */,
 				EC92242C285AF42500152E91 /* APIKey.plist */,
@@ -138,6 +141,7 @@
 		EC922419285AEF9200152E91 /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				ECA3C2AD285F1C6200BDE193 /* Manager */,
 				EC92242E285AF5CC00152E91 /* Extension */,
 				EC922423285AF1F800152E91 /* Base */,
 				EC92241B285AEFA400152E91 /* Protocol */,
@@ -204,18 +208,11 @@
 			path = WeatherDetail;
 			sourceTree = "<group>";
 		};
-		EC92242A285AF26700152E91 /* Manager */ = {
-			isa = PBXGroup;
-			children = (
-				EC92240D285AED9000152E91 /* APIManager.swift */,
-			);
-			path = Manager;
-			sourceTree = "<group>";
-		};
 		EC92242E285AF5CC00152E91 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
 				EC922430285AF5DA00152E91 /* Bundle.swift */,
+				ECA3C2A9285F19CA00BDE193 /* UIView ++ Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -223,17 +220,9 @@
 		ECA3C296285CC5C600BDE193 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				ECA3C297285CC67400BDE193 /* DataMapping */,
 				ECA3C298285CC68C00BDE193 /* Repository */,
 			);
 			path = Data;
-			sourceTree = "<group>";
-		};
-		ECA3C297285CC67400BDE193 /* DataMapping */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = DataMapping;
 			sourceTree = "<group>";
 		};
 		ECA3C298285CC68C00BDE193 /* Repository */ = {
@@ -292,8 +281,17 @@
 			isa = PBXGroup;
 			children = (
 				ECA3C29F285CE31400BDE193 /* WeatherTableViewCell.swift */,
+				ECA3C2A7285F109200BDE193 /* DetatilCollectionViewCell.swift */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		ECA3C2AD285F1C6200BDE193 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				ECA3C2AB285F1C3F00BDE193 /* ImageCacheManager.swift */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -372,12 +370,14 @@
 				EC922431285AF5DA00152E91 /* Bundle.swift in Sources */,
 				EC92241E285AF1A800152E91 /* ViewPresentable.swift in Sources */,
 				ECA3C2A2285CE87300BDE193 /* GetWeatherUseCase.swift in Sources */,
-				EC92240E285AED9000152E91 /* APIManager.swift in Sources */,
 				EC92240C285AED1C00152E91 /* WeatherViewModel.swift in Sources */,
+				ECA3C2A8285F109200BDE193 /* DetatilCollectionViewCell.swift in Sources */,
 				ECA3C2A4285CE90400BDE193 /* WeatherRepository.swift in Sources */,
 				EC922416285AEE0400152E91 /* WeatherDetailViewController.swift in Sources */,
 				EC922422285AF1F500152E91 /* BaseViewController.swift in Sources */,
+				ECA3C2AC285F1C3F00BDE193 /* ImageCacheManager.swift in Sources */,
 				ECA3C2A6285CE93900BDE193 /* WeatherRepositoryInterface.swift in Sources */,
+				ECA3C2AA285F19CA00BDE193 /* UIView ++ Extension.swift in Sources */,
 				EC9223F4285AEC8B00152E91 /* AppDelegate.swift in Sources */,
 				EC922408285AECC600152E91 /* WeatherViewController.swift in Sources */,
 				EC9223F6285AEC8B00152E91 /* SceneDelegate.swift in Sources */,
