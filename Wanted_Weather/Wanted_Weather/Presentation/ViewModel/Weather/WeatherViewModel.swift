@@ -19,19 +19,20 @@ final class WeatherViewModel: WeatherViewModelProtocol {
     
     var weatherInfo: Observable<[Weathers]> = Observable([])
     
-    
     init(useCase: GetWeatherUseCase) {
         self.useCase = useCase
     }
     
     func getCityWeather() {
-        for city in cities {
-            useCase.getCityWeather(query: city) { [weak self] result in
+        cities.forEach {
+            useCase.getCityWeather(query: $0) { [weak self] result in
                 guard let self = self else { return }
                 switch result {
                 case .success(let data):
-                    print("성공")
-                    self.weatherInfo.value += [data]
+                    DispatchQueue.global().async {
+                        self.weatherInfo.value.append(data)
+                    }
+        
                 case .failure(_):
                     print("실패")
                 }
@@ -39,4 +40,3 @@ final class WeatherViewModel: WeatherViewModelProtocol {
         }
     }
 }
-

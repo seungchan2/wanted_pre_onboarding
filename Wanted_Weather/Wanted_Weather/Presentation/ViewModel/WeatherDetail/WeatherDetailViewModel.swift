@@ -9,11 +9,11 @@ import Foundation
 
 final class WeatherDetailViewModel {
    
-        
+    var city: Observable<String> = Observable("")
+    
     var weatherDetail: Observable<[Weathers]> = Observable([])
     
     func weatherInfo(at index: Weathers) {
         weatherDetail.value += [index]
     }
 }
-
