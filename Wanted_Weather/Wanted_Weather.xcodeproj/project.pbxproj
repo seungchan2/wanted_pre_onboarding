@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC04285628600BF1001DD1EC /* wanted_WeatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC04285528600BF1001DD1EC /* wanted_WeatherUITests.swift */; };
+		EC04285828600BF1001DD1EC /* wanted_WeatherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC04285728600BF1001DD1EC /* wanted_WeatherUITestsLaunchTests.swift */; };
+		EC04285F28600C10001DD1EC /* UITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC04285E28600C10001DD1EC /* UITest.swift */; };
 		EC9223F4285AEC8B00152E91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9223F3285AEC8B00152E91 /* AppDelegate.swift */; };
 		EC9223F6285AEC8B00152E91 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9223F5285AEC8B00152E91 /* SceneDelegate.swift */; };
 		EC9223FD285AEC8C00152E91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC9223FC285AEC8C00152E91 /* Assets.xcassets */; };
@@ -32,7 +35,21 @@
 		ECA3C2AC285F1C3F00BDE193 /* ImageCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA3C2AB285F1C3F00BDE193 /* ImageCacheManager.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		EC04285928600BF1001DD1EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC9223E8285AEC8B00152E91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC9223EF285AEC8B00152E91;
+			remoteInfo = wanted_Weather;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		EC04285328600BF1001DD1EC /* wanted_WeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wanted_WeatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC04285528600BF1001DD1EC /* wanted_WeatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wanted_WeatherUITests.swift; sourceTree = "<group>"; };
+		EC04285728600BF1001DD1EC /* wanted_WeatherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wanted_WeatherUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EC04285E28600C10001DD1EC /* UITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITest.swift; sourceTree = "<group>"; };
 		EC9223F0285AEC8B00152E91 /* wanted_Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wanted_Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC9223F3285AEC8B00152E91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC9223F5285AEC8B00152E91 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +78,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		EC04285028600BF1001DD1EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EC9223ED285AEC8B00152E91 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -71,10 +95,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EC04285428600BF1001DD1EC /* wanted_WeatherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC04285528600BF1001DD1EC /* wanted_WeatherUITests.swift */,
+				EC04285E28600C10001DD1EC /* UITest.swift */,
+				EC04285728600BF1001DD1EC /* wanted_WeatherUITestsLaunchTests.swift */,
+			);
+			path = wanted_WeatherUITests;
+			sourceTree = "<group>";
+		};
 		EC9223E7285AEC8B00152E91 = {
 			isa = PBXGroup;
 			children = (
 				EC9223F2285AEC8B00152E91 /* wanted_Weather */,
+				EC04285428600BF1001DD1EC /* wanted_WeatherUITests */,
 				EC9223F1285AEC8B00152E91 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -83,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				EC9223F0285AEC8B00152E91 /* wanted_Weather.app */,
+				EC04285328600BF1001DD1EC /* wanted_WeatherUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -297,6 +333,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		EC04285228600BF1001DD1EC /* wanted_WeatherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC04285B28600BF1001DD1EC /* Build configuration list for PBXNativeTarget "wanted_WeatherUITests" */;
+			buildPhases = (
+				EC04284F28600BF1001DD1EC /* Sources */,
+				EC04285028600BF1001DD1EC /* Frameworks */,
+				EC04285128600BF1001DD1EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC04285A28600BF1001DD1EC /* PBXTargetDependency */,
+			);
+			name = wanted_WeatherUITests;
+			productName = wanted_WeatherUITests;
+			productReference = EC04285328600BF1001DD1EC /* wanted_WeatherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		EC9223EF285AEC8B00152E91 /* wanted_Weather */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC922404285AEC8C00152E91 /* Build configuration list for PBXNativeTarget "wanted_Weather" */;
@@ -324,6 +378,10 @@
 				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
+					EC04285228600BF1001DD1EC = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = EC9223EF285AEC8B00152E91;
+					};
 					EC9223EF285AEC8B00152E91 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
@@ -343,11 +401,19 @@
 			projectRoot = "";
 			targets = (
 				EC9223EF285AEC8B00152E91 /* wanted_Weather */,
+				EC04285228600BF1001DD1EC /* wanted_WeatherUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		EC04285128600BF1001DD1EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EC9223EE285AEC8B00152E91 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -361,6 +427,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		EC04284F28600BF1001DD1EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC04285F28600C10001DD1EC /* UITest.swift in Sources */,
+				EC04285828600BF1001DD1EC /* wanted_WeatherUITestsLaunchTests.swift in Sources */,
+				EC04285628600BF1001DD1EC /* wanted_WeatherUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EC9223EC285AEC8B00152E91 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -390,6 +466,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		EC04285A28600BF1001DD1EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC9223EF285AEC8B00152E91 /* wanted_Weather */;
+			targetProxy = EC04285928600BF1001DD1EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		EC9223FE285AEC8C00152E91 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -402,6 +486,38 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		EC04285C28600BF1001DD1EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "seungchan.wanted-WeatherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = wanted_Weather;
+			};
+			name = Debug;
+		};
+		EC04285D28600BF1001DD1EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "seungchan.wanted-WeatherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = wanted_Weather;
+			};
+			name = Release;
+		};
 		EC922402285AEC8C00152E91 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -571,6 +687,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		EC04285B28600BF1001DD1EC /* Build configuration list for PBXNativeTarget "wanted_WeatherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC04285C28600BF1001DD1EC /* Debug */,
+				EC04285D28600BF1001DD1EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		EC9223EB285AEC8B00152E91 /* Build configuration list for PBXProject "wanted_Weather" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
